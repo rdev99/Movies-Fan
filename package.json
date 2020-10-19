@@ -1,9 +1,16 @@
 {
-  "name": "Movies-Fan",
+  "name": "movies-fan",
   "version": "1.0.0",
   "description": "Everybody loves movies",
   "main": "index.js",
   "repository": "git@github.com:rdev99/Movies-Fan.git",
   "author": "rdev <deveshranjan920@gmail.com>",
-  "license": "GPL-3"
+  "license": "GPL-3",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "puppeteer": "^5.3.1"
+  }
 }
